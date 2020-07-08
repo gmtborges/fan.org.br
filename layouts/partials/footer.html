@@ -1,0 +1,12 @@
+<script type="text/javascript">
+    const menuBtn = document.getElementById("menu-btn");
+    const menuLinks = document.getElementById("menu-links");
+    menuBtn.addEventListener("click", function (event) {
+        event.preventDefault();
+        if (menuLinks.classList.contains("hidden")) {
+            menuLinks.classList.remove("hidden");
+        } else {
+            menuLinks.classList.add("hidden");
+        }
+    });
+</script>

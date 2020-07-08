@@ -1,0 +1,31 @@
+{{ define "main" }}
+{{ partial "header/header.html" . }}
+<div class="flex flex-col mt-8 max-w-2xl xl:max-w-3xl mx-auto">
+    <main class="flex flex-row mb-8">
+        <article class="md:w-2/3 mx-4">
+            <h1 class="font-sans text-xl text-gray-700">Título</h1>
+            <div class="flex">
+                <button class="bg-secondary px-2 mr-2 text-sm text-gray-100 rounded hover:bg-blue-800">Categoria
+                    1</button>
+            </div>
+            <p class="font-serif text-gray-700 my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+                quasi
+                rerum voluptatem
+            </p>
+            <button class="uppercase text-left text-sm font-bold text-blue-500 hover:text-blue-800">Leia
+                Mais...</button>
+        </article>
+        <aside class="hidden md:flex flex-col w-1/3 ml-2">
+            <h2 class="font-sans text-md tracking-wide font-semibold text-gray-700 uppercase border-b-4 border-primary">
+                Categorias</h2>
+        </aside>
+    </main>
+</div>
+<section id="filiados" class="flex flex-col items-center bg-secondary h-64">
+    <h1 class="text-lg tracking-wide font-semibold text-gray-100 uppercase">Filiados</h1>
+</section>
+<section id="parceiros" class="flex flex-col items-center bg-secondary h-64">
+    <h1 class="text-lg tracking-wide font-semibold text-gray-100 uppercase">Parceiros</h1>
+</section>
+{{ partial "footer.html" . }}
+{{ end }}

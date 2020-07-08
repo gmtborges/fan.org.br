@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "postcss assets/css/styles.css -o static/styles.css",
-    "prod": "NODE_ENV=production && postcss assets/css/styles.css -o static/styles.css"
+    "dev": "postcss assets/css/styles.css -o static/css/styles.css",
+    "prod": "NODE_ENV=production && postcss assets/css/styles.css -o static/css/styles.css"
   },
   "repository": {
     "type": "git",
