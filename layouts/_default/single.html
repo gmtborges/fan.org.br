@@ -1,0 +1,25 @@
+{{ define "main" -}}
+<div class="mt-8 max-w-2xl xl:max-w-3xl mx-auto">
+    <main class="mb-12 w-full">
+        <section class="mx-4 my-2 w-full">
+            <article class="flex flex-col my-4 text-gray-700">
+                <span><a href="{{ .Permalink }}" class="font-sans text-4xl">{{ .Title }}</a>
+                </span>
+                {{ if .Date }}
+                <time class="text-sm"
+                    datetime="{{ .Date.Format "2006-01-02T15:04:05Z0700" }}">{{ .Date.Format "02/01/2006" }}</time>
+                {{ end }}
+                <div class="font-serif text-lg text-justify my-8">
+                    {{ .Content }}
+                </div>
+                <div class="flex mr-2 mb-2">
+                    {{ range .Params.categories }}<a
+                        class="border border-secondary px-2 mr-2 text-xs rounded hover:bg-blue-800 hover:text-gray-100 uppercase"
+                        href="{{ "/categories/" | absURL }}{{ . | urlize }}">{{ . }}</a>
+                    {{ end }}
+                </div>
+            </article>
+        </section>
+    </main>
+</div>
+{{ end }}

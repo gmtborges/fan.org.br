@@ -1,0 +1,39 @@
+<h1 class="mb-4 text-xl tracking-wide font-semibold text-gray-700 uppercase">Ouvidoria</h1>
+<p class="text-gray-700 text-lg max-w-3xl text-justify">Associações filiadas e também seus associados pode contar com a
+    ouvidoria da
+    FAN. Deixe
+    sua
+    sugestão, crítica, elogio ou denúncia sobre a forma de amparo e comprimento de regulamento.
+    <strong>Queremos te ouvir.</strong></p>
+<form class="w-full max-w-4xl px-8 py-8 mt-6 mx-4 bg-secondary shadow-md rounded"
+    action="https://submit-form.com/AZYCuM3UxW5qwL0MzxG1Z">
+    <div class="mb-4">
+        <label class="block text-gray-100 text-lg font-bold mb-2" for="nome">
+            Nome
+        </label>
+        <input id="nome" name="nome" type="text" value="" required
+            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" />
+    </div>
+    <div class="mb-4">
+        <label class="block text-gray-100 text-lg font-bold mb-2" for="email">
+            E-mail
+        </label>
+        <input id="email" name="email" type="email" value="" placeholder="seuemail@dominio.com" required
+            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" />
+    </div>
+    <div class="mb-6">
+        <label class="block text-gray-100 text-lg font-bold mb-2" for="mensagem">
+            Mensagem
+        </label>
+        <textarea id="mensagem" name="mensagem" value="" placeholder="Sua mensagem aqui." rows="5" required
+            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></textarea>
+    </div>
+    <input type="hidden" name="_redirect"
+        value="{{ if .Site.IsServer }}http://localhost:1313/obrigado{{else}}https://fan.org.br/obrigado{{ end }}">
+    <input type="hidden" name="_email.subject" value="Ouvidoria fan.org.br" />
+    <div class="flex w-full">
+        <button
+            class="ml-auto text-gray-100 bg-primary rounded py-2 px-10 uppercase leading-tight font-semibold hover:bg-green-800"
+            type="submit">Enviar</button>
+    </div>
+</form>

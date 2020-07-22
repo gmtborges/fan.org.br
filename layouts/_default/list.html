@@ -1,8 +1,8 @@
 {{ define "main" -}}
-<div class="mt-8 max-w-2xl lg:max-w-3xl mx-auto">
+<div class="mt-8 max-w-2xl xl:max-w-3xl mx-auto">
     <main class="mb-12 w-full">
         <section class="flex flex-col mx-4 my-2">
-            {{ range first 4 (where .Site.RegularPages "Section" "blog") }}
+            {{ range where .Site.RegularPages "Section" "blog" }}
             <article class="flex flex-col my-4 text-gray-700">
                 <span><a href="{{ .Permalink }}" class="font-sans text-4xl hover:text-primary">{{ .Title }}</a>
                 </span>
@@ -25,13 +25,4 @@
         </section>
     </main>
 </div>
-<section id="filiadas" class="flex flex-col p-8 items-center bg-blue-100">
-    {{ partial "home/filiadas.html" . }}
-</section>
-<section id="parceiros" class="flex flex-col p-8 items-center">
-    {{ partial "home/parceiros.html" . }}
-</section>
-<section id="ouvidoria" class="flex flex-col p-8 items-center my-10">
-    {{ partial "home/ouvidoria.html" . }}
-</section>
-{{- end }}
+{{ end }}

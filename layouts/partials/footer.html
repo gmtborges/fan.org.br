@@ -1,3 +1,74 @@
+<div class="flex flex-col items-baseline bg-secondary pt-6">
+    <div class="ml-12 md:ml-0 md:w-full md:flex md:flex-row md:justify-center">
+        <div class="flex flex-col mb-8">
+            <h1 class=" mb-2 text-xl text-gray-100 uppercase font-semibold border-b-2">Contato</h1>
+            <span class="text-gray-100"><strong>E-mail: </strong><a
+                    href="mailto:contato@fan.org.br">contato@fan.org.br</a></span>
+            <span class="text-gray-100"><strong>Telefone 1: </strong><a href="tel:08009430033">0800 943
+                    0033</a></span>
+            <span class="text-gray-100"><strong>Telefone 2: </strong><a href="tel:+553125521999">(31)
+                    2552-1999</a></span>
+        </div>
+        <div class="flex flex-col mb-8 md:ml-20">
+            <h1 class="mb-2 text-xl text-gray-100 uppercase font-semibold border-b-2">Associe-se</h1>
+            <span class="text-gray-100"><strong>E-mail: </strong><a
+                    href="mailto:associe@gmail.com">associe@fan.org.br</a></span>
+        </div>
+    </div>
+    <div class="ml-12 md:ml-0 md:w-full md:flex md:flex-row md:justify-center lg:justify-center">
+        <div class="mb-8">
+            <h1 class="mb-2 text-xl text-gray-100 uppercase font-semibold border-b-2">Endereços</h1>
+            <div class="md:flex text-sm">
+                <div class="flex flex-col mb-4 mr-4 lg:mr-10">
+                    <span class="text-gray-100"><strong>Minas Gerais</strong></span>
+                    <span class="text-gray-100">Rua Via Láctea, nº 52
+                    </span>
+                    <span class="text-gray-100">
+                        Jardim Riacho das Pedras
+                    </span>
+                    <span class="text-gray-100">Contagem - MG</span>
+                    <span class="text-gray-100">32.241-180</span>
+                </div>
+                <div class="flex flex-col mb-4 mr-4 lg:mr-10">
+                    <span class="text-gray-100"><strong>Brasília</strong></span>
+                    <span class="text-gray-100">Shis Qi, nº 23
+                        Conjunto 16,5</span>
+                    <span class="text-gray-100">
+                        Lago Sul
+                    </span>
+                    <span class="text-gray-100">71.660-160</span>
+                </div>
+                <div class="flex flex-col mb-4 mr-4 lg:mr-10">
+                    <span class="text-gray-100"><strong>Goiás</strong></span>
+                    <span class="text-gray-100">Rua C-84, nº 180</span>
+                    <span class="text-gray-100">
+                        Setor Sudoeste
+                    </span>
+                    <span class="text-gray-100">
+                        Goiânia - GO
+                    </span>
+                    <span class="text-gray-100">74.303-180</span>
+                </div>
+                <div class="flex flex-col">
+                    <span class="text-gray-100"><strong>Pernambuco</strong></span>
+                    <span class="text-gray-100">Av. Bernardo Vieira de Melo
+                        nº 1730</span>
+                    <span class="text-gray-100">
+                        Piedade
+                    </span>
+                    <span class="text-gray-100">
+                        Jaboatão dos Guararapes - PE
+                    </span>
+                    <span class="text-gray-100">54.400-000</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="flex justify-center pb-4 text-gray-400 text-sm w-full">
+        <a href="https://github.com/gustavomtborges/fan.org.br" target="_blank" rel="noopener">Site de código
+            livre.</a>
+    </div>
+</div>
 <script type="text/javascript">
     const menuBtn = document.getElementById("menu-btn");
     const menuLinks = document.getElementById("menu-links");
@@ -9,4 +80,25 @@
             menuLinks.classList.add("hidden");
         }
     });
+</script>
+<script>
+    function submitForm(event) {
+        console.log(event);
+        fetch("https://submit-form.com/your-form-id", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+                Accept: "application/json"
+            },
+            body: JSON.stringify({
+                message: "Hello, World"
+            })
+        })
+            .then(function (response) {
+                console.log(response);
+            })
+            .catch(function (error) {
+                console.error(error);
+            });
+    }
 </script>
