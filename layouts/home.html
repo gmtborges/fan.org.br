@@ -1,7 +1,7 @@
 {{ define "main" -}}
 <div class="mt-8 max-w-2xl lg:max-w-3xl mx-auto">
-    <main class="mb-12 w-full">
-        <section class="flex flex-col mx-4 my-2">
+    <main class="mb-12">
+        <section class="flex flex-col mx-6 my-2">
             {{ range first 4 (where .Site.RegularPages "Section" "blog") }}
             <article class="flex flex-col my-4 text-gray-700">
                 <span><a href="{{ .Permalink }}" class="font-sans text-4xl hover:text-primary">{{ .Title }}</a>
