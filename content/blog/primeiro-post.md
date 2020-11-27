@@ -3,7 +3,6 @@ title: Primeira Lei do País sobre as Associações de Proteção Veicular
 date: 2020-07-23T18:01:22.000-03:00
 categories:
 - categoria 1
-draft: true
 
 ---
 PROTEÇÃO VEICULAR, AGORA TEM LEI
