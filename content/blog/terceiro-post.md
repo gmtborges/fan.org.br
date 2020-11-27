@@ -1,11 +1,16 @@
 ---
-title: "Terceiro Post"
-date: 2020-07-23T18:01:38-03:00
-draft: true
-categories: ["categoria 1"]
----
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis nihil voluptates ullam fugit dolorem ut omnis
-repellendus itaque minus recusandae unde, error repellat deserunt accusamus commodi voluptatibus saepe fugiat maxime.
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt animi aut soluta asperiores officiis tempore optio
-itaque fugiat accusamus, ipsum inventore odio earum quaerat. Nihil inventore iure adipisci quis nobis!
+title: FAN em Ação!
+date: 2020-11-25T19:01:38-02:00
+categories:
+- categoria 1
 
+---
+FAN em Ação!
+
+Hoje, dia 25/11/20, a FAN fez a entrega de material sobre as associaçoes de proteção veicular a todos os Deputados da Assembleia Legislativa do Estado de Goiás.
+
+Além da entrega, já temos o agendamento com parlamentares essa semana e em todos os dias da próxima.
+
+A FAN esta realizado o trabalho de consciência e valorização do Associativismo em Goiás e em todo Brasil.
+
+FAN = Unidade, Transparência e Ação!!
