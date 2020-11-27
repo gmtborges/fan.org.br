@@ -6,7 +6,7 @@ categories:
 - categoria 3
 
 ---
-FAN INICIA APLICAÇÃO DA LEI 20.894/20 JUNTO AO PROCON DO ESTADO DE GOIÁS
+Fan inicia aplicação da Lei 20.894/20 junto ao Procon do Estado de Goiás
 
 Na data de hoje, 19/11, a FAN - Força Associativa Nacional, representada pelos Diretores Gabriel M. T. Borges e Alexandre T. Remiggi, protocolizaram junto ao Superintendente do PROCON de Goiás, informativo técnico sobre a Lei 20.894/20, que trata sobre a proteção veicular.
 
