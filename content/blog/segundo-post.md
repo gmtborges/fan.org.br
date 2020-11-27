@@ -1,6 +1,6 @@
 ---
 title: FAN INICIA APLICAÇÃO DA LEI 20.894/20 JUNTO AO PROCON DO ESTADO DE GOIÁS
-date: 2020-07-19T18:01:30-03:00
+date: 2020-11-19T19:01:30-02:00
 categories:
 - categoria 2
 - categoria 3
