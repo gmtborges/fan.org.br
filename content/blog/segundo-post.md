@@ -1,5 +1,5 @@
 ---
-title: FAN INICIA APLICAÇÃO DA LEI 20.894/20 JUNTO AO PROCON DO ESTADO DE GOIÁS
+title: Fan inicia aplicação da Lei 20.894/20 junto ao Procon do Estado de Goiás
 date: 2020-11-19T19:01:30-02:00
 categories:
 - categoria 2
