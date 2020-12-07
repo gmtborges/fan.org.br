@@ -1,5 +1,4 @@
 baseURL = "https://fan.org.br/"
 title = "FAN - Força Associativa Nacional"
-
 [params]
-  description = "Força Associativa Nacional"
+description = "Força Associativa Nacional"
