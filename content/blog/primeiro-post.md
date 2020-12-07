@@ -1,6 +1,6 @@
 ---
 title: Primeira Lei do País sobre as Associações de Proteção Veicular
-date: 2020-07-23T18:01:22.000-03:00
+date: 2020-10-29T00:00:00-03:00
 categories:
 - categoria 1
 
