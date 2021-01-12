@@ -3,41 +3,7 @@
 </p>
 <p><i>Instituto Nacional de Estudos e Defesa do Associativismo - FAN</i></p>
 <div class="flex content-around items-center justify-center flex-wrap max-w-full mx-6 mt-10">
-    <img class="w-64 h-full m-6" src="/img/AAPROVEL.png" alt="Marca AAPROVEL">
-    <img class="w-64 h-full m-6" src="/img/AGSMB.png" alt="Marca AGSMB">
-    <!-- <img class="w-64 h-full m-6" src="/img/ALFA CB.png" alt="Marca ALFA CB"> -->
-    <img class="w-64 h-full m-6" src="/img/ALLIANCE.jpg" alt="Marca ALLIANCE">
-    <img class="w-64 h-full m-6" src="/img/APMAM.jpg" alt="Marca APMAM">
-    <img class="w-64 h-full m-6" src="/img/APROVA BRASIL.png" alt="Marca APROVA BRASIL">
-    <img class="w-64 h-full m-6" src="/img/APVS.jpg" alt="Marca APVS">
-    <img class="w-64 h-full m-6" src="/img/AUTO CARE.png" alt="Marca AUTO CARE">
-    <!-- <img class="w-64 h-full m-6" src="/img/AUTO PROTEC.png" alt="Marca AUTO PROTEC"> -->
-    <img class="w-64 h-full m-6" src="/img/BEMAMIGOS.png" alt="Marca BEM AMIGOS">
-    <img class="w-64 h-full m-6" src="/img/BRAVAX.png" alt="Marca BRAVAX">
-    <img class="w-64 h-full m-6" src="/img/Estrela do Brasil.png" alt="Marca Estrela do Brasil">
-    <img class="w-64 h-full m-6" src="/img/EXLUSIVE GOLD.png" alt="Marca EXCLUSIVE GOLD">
-    <!-- <img class="w-64 h-full m-6" src="/img/GAPE.jpg" alt="Marca GAPE"> -->
-    <img class="w-64 h-full m-6" src="/img/GolPlus Brasil.png" alt="Marca GolPlus Brasil">
-    <img class="w-64 h-full m-6" src="/img/GOYAZ MUTUA.jpg" alt="Marca GOIAZ MÚTUA">
-    <img class="w-64 h-full m-6" src="/img/GPV-Brasil.png" alt="Marca GPV Brasil">
-    <!-- <img class="w-64 h-full m-6" src="/img/LNR.png" alt="Marca LNR"> -->
-    <img class="w-64 h-full m-6" src="/img/MAIS BRASIL.png" alt="Marca MAIS BRASIL">
-    <img class="w-64 h-full m-6" src="/img/MASTER.jpg" alt="Marca MASTER">
-    <img class="w-64 h-full m-6" src="/img/MELHOR PROTECAO.png" alt="Marca MELHOR PROTEÇÃO">
-    <img class="w-64 h-full m-6" src="/img/META ASSOCIADOS.png" alt="Marca META ASSOCIADOS">
-    <img class="w-64 h-full m-6" src="/img/NOVA PROTECAO.png" alt="Marca NOVA PROTEÇÃO">
-    <!-- <img class="w-64 h-full m-6" src="/img/PARAIBA.png" alt="Marca PARAIBA"> -->
-    <img class="w-64 h-full m-6" src="/img/Pensar Clube.png" alt="Marca Pensar Clube">
-    <img class="w-64 h-full m-6" src="/img/PRIME.png" alt="Marca PRIME">
-    <img class="w-64 h-full m-6" src="/img/PROSEG.png" alt="Marca PROSEG">
-    <img class="w-64 h-full m-6" src="/img/PROTEGE ARAPIRACA.png" alt="Marca PROTEGE ARAPIRACA">
-    <img class="w-64 h-full m-6" src="/img/PROTEGE ASSOCIADOS.jpg" alt="Marca PROTEGE ASSOCIADOS">
-    <img class="w-64 h-full m-6" src="/img/PROTEGE CAR.jpeg" alt="Marca PROTEGE CAR">
-    <img class="w-64 h-full m-6" src="/img/SAB BRASIL.png" alt="Marca SAB BRASIL">
-    <img class="w-64 h-full m-6" src="/img/SOLIDUS.png" alt="Marca SOLIDUS">
-    <img class="w-64 h-full m-6" src="/img/SOLIDY.jpg" alt="Marca SOLIDY">
-    <img class="w-64 h-full m-6" src="/img/TOP PREV.jpg" alt="Marca TOP PREV">
-    <img class="w-64 h-full m-6" src="/img/Triniti.png" alt="Marca Triniti">
-    <img class="w-64 h-full m-6" src="/img/TOTAL MOTOS.png" alt="Marca TOTAL MOTOS">
-    <!-- <img class="w-64 h-full m-6" src="/img/UNIDAS.png" alt="Marca UNIDAS"> -->
+    {{ range where (where .Site.RegularPages "Section" "associacoes") ".Params.ativa" true }}
+    <img class="w-64 h-full m-6" src="{{ .Params.img }}" alt="{{ .Params.alt }}">
+    {{ end }}
 </div>
