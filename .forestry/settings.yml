@@ -20,8 +20,8 @@ sections:
   path: content
   label: Pages
   create: documents
-  match: "*"
-  new_doc_ext: md
+  match: "*.md"
+  new_doc_ext: ''
 upload_dir: static/img
 public_path: "/uploads"
 front_matter_path: ''
