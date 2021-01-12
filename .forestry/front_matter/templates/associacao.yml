@@ -19,3 +19,5 @@ fields:
   type: boolean
   label: ativa
   description: Se associação deve ser mostrada no site.
+pages:
+- content/associacoes/ALFA CB.md
