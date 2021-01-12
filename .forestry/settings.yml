@@ -17,8 +17,9 @@ sections:
 - type: directory
   path: content
   label: Pages
-  create: all
+  create: documents
   match: "*"
+  new_doc_ext: ".md"
 upload_dir: static/img
 public_path: "/uploads"
 front_matter_path: ''
