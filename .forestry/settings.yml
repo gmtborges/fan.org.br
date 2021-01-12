@@ -9,6 +9,8 @@ sections:
   label: Associações
   create: documents
   match: "**/*"
+  templates:
+  - associacao
 - type: directory
   path: content/blog
   label: Blog
