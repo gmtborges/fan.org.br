@@ -1,4 +1,21 @@
 ---
 label: Associação
 hide_body: true
-fields: []
+fields:
+- name: img
+  type: text
+  config:
+    required: false
+  label: img
+  description: Caminho da imagem no servidor. Ex /img/ASSOCIACAO.png<br>Se atentar
+    para a extensão (.png, .jpg, .jpeg)
+- name: alt
+  type: text
+  config:
+    required: false
+  label: alt
+  description: Texto para leitura de acessibilidade.
+- name: ativa
+  type: boolean
+  label: ativa
+  description: Se associação deve ser mostrada no site.
