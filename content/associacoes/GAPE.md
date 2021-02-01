@@ -1,5 +1,6 @@
 ---
-img: /img/GAPE.jpg
+img: "/img/GAPE.jpg"
 alt: Logo GAPE
-ativa: true
+ativa: false
+
 ---
