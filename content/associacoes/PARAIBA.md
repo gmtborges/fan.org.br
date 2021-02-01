@@ -1,5 +1,6 @@
 ---
-img: /img/PARAIBA.png
+img: "/img/PARAIBA.png"
 alt: Logo PARAÍBA
-ativa: true
+ativa: false
+
 ---
