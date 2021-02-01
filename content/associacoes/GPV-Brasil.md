@@ -1,5 +1,6 @@
 ---
-img: /img/GPV-Brasil.png
+img: "/img/GPV-Brasil.png"
 alt: Logo GPV Brasil
-ativa: true
+ativa: false
+
 ---
