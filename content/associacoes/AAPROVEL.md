@@ -1,5 +1,7 @@
 ---
-img: /img/AAPROVEL.png
+img: "/img/AAPROVEL.png"
 alt: Logo AAPROVEL
 ativa: true
+draft: true
+
 ---
