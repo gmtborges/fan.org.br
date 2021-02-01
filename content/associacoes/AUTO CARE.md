@@ -1,5 +1,6 @@
 ---
-img: /img/AUTO CARE.png
+img: "/img/AUTO CARE.png"
 alt: Logo AUTO CARE
-ativa: true
+ativa: false
+
 ---
