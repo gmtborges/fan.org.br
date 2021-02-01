@@ -1,5 +1,6 @@
 ---
-img: /img/SOLIDY.jpg
+img: "/img/SOLIDY.jpg"
 alt: Logo SOLIDY
-ativa: true
+ativa: false
+
 ---
