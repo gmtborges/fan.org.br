@@ -1,5 +1,5 @@
 +++
-alt = "Logomarca Marinho Consultoria"
+alt = "Marinho Consultoria"
 ativa = true
 img = "Marinho Consultoria.jpeg"
 
