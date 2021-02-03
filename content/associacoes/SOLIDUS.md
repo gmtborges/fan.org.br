@@ -1,5 +1,6 @@
 ---
-img: /img/SOLIDUS.png
+img: "/img/SOLIDUS.png"
 alt: Logo SOLIDUS
-ativa: false
+ativa: true
+
 ---
