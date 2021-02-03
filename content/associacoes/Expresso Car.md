@@ -2,6 +2,6 @@
 alt = "Expresso Car"
 ativa = true
 draft = true
-img = "/uploads/expresso-car.jpeg"
+img = "Expresso Car.jpeg"
 
 +++
