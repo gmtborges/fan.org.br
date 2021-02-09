@@ -2,9 +2,11 @@
 label: Parceiros
 hide_body: true
 fields:
-- type: file
-  name: img
-  label: URL da imagem
+- name: img
+  type: text
+  config:
+    required: false
+  label: Endereço da imagem
 - type: text
   name: alt
   label: Descrição da imagem
@@ -13,4 +15,4 @@ fields:
   label: Link para o site do parceiro
 - type: boolean
   name: ativa
-  label: ativa
+  label: Ativo
