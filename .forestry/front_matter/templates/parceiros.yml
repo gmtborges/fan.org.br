@@ -1,0 +1,16 @@
+---
+label: Parceiros
+hide_body: true
+fields:
+- type: file
+  name: img
+  label: img
+- type: text
+  name: alt
+  label: alt
+- type: text
+  name: link
+  label: link
+- type: boolean
+  name: ativa
+  label: ativa
