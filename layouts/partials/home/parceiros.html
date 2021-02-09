@@ -1,16 +1,12 @@
 <h1 class="mt-4 mb-4 text-xl tracking-wide font-semibold text-gray-700 uppercase">Parceiros</h1>
 <p class="text-gray-700 text-lg">Entidades que contribuem com a FAN em defesa do
-        <strong>associativismo</strong>, o qual
-        referenciamos seus produtos e serviços.</p>
+    <strong>associativismo</strong>, o qual
+    referenciamos seus produtos e serviços.
+</p>
 <div class="flex mt-6 content-around items-center justify-center flex-wrap max-w-full mx-6">
-        <a href="https://brasilatuarial.com.br" target="_blank" rel="noopener"><img class="w-64 h-full m-6"
-                        src="/img/BRASIL ATUARIAL-EMPRESA PARCEIRA.png" alt="Empresa parceira BRASIL ATUARIAL"></a>
-        <a href="https://clubecerto.com.br" target="_blank" rel="noopener"><img class="w-64 h-full m-6"
-                        src="/img/CLUBE CERTO-EMPRESA PARCEIRA.jpg" alt="Empresa parceira CLUBE CERTO"></a>
-        <a href="https://coletiva.org.br" target="_blank" rel="noopener"><img class="w-64 h-full m-6"
-                        src="/img/COLETIVA-EMPRESA PARCEIRA.png" alt="Empresa parceira COLETIVA"></a>
-        <a href="https://hinova.com.br" target="_blank" rel="noopener"><img class="w-64 h-full m-6"
-                        src="/img/Hinova-EMPRESA PARCEIRA.png" alt="Empresa parceira Hinova"></a>
-        <a href="https://hinova.com.br" target="_blank" rel="noopener"><img class="w-64 h-full m-6" src="/img/WG2R.jpeg"
-                        alt="Empresa parceira WG2R Desenvolvimento"></a>
+    {{ range where (where .Site.RegularPages "Section" "parceiros") ".Params.ativa" true }}
+    <a href="{{ .Params.link }}" target="_blank" rel="noopener">
+        <img class="w-64 h-full m-6" src="{{ .Params.img }}" alt="{{ .Params.alt }}">
+    </a>
+    {{ end }}
 </div>
