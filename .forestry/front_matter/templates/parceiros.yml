@@ -4,13 +4,13 @@ hide_body: true
 fields:
 - type: file
   name: img
-  label: img
+  label: URL da imagem
 - type: text
   name: alt
-  label: alt
+  label: Descrição da imagem
 - type: text
   name: link
-  label: link
+  label: Link para o site do parceiro
 - type: boolean
   name: ativa
   label: ativa
