@@ -16,3 +16,5 @@ fields:
 - type: boolean
   name: ativa
   label: Ativo
+pages:
+- content/parceiros/Marinho Consultoria.md
