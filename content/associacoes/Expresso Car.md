@@ -1,6 +1,6 @@
 +++
 alt = "Expresso Car"
-ativa = true
+ativa = false
 img = "img/expresso-car.jpeg"
 
 +++
