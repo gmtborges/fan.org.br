@@ -1,6 +1,6 @@
 ---
 img: "/img/BEMAMIGOS.png"
 alt: Logo BEM AMIGOS
-ativa: false
+ativa: true
 
 ---
