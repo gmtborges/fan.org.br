@@ -1,6 +1,6 @@
 +++
 alt = "Maxcar"
 ativa = true
-img = "/img/MAXCAR.png"
+img = "img/MAXCAR.jpeg"
 
 +++
