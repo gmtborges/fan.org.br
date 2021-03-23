@@ -1,7 +1,6 @@
 +++
 categories = []
 date = 2021-03-23T03:00:00Z
-draft = true
 title = "FAN RESPONDE! "
 
 +++
