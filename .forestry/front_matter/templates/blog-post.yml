@@ -12,4 +12,5 @@ fields:
   name: categories
   label: Categorias
 pages:
+- content/blog/fan-responde.md
 - content/blog/selos-de-conformidade-da-fan.md
